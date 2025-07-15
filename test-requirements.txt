@@ -15,3 +15,4 @@ pytest-xdist >= 1.31.0
 pytest >= 6.0.0
 coverage >= 4.5.3, < 5
 coveralls
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
