@@ -10,3 +10,4 @@ flake8
 mypy == 1.7.0
 
 -r test-requirements.txt
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
